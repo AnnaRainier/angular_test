@@ -1,0 +1,40 @@
+.test {
+    border: 1px solid black;
+}
+.header {
+    height: 7rem;
+    display: inline-block;
+    background: url('./img/black.jpg') center center;
+    width: 100%;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-head {
+    list-style-type: none;
+    padding-top: 1.5rem;
+    width: 60%;
+    margin-left: 60%;
+}
+.nav-head li {
+    display: inline-block;
+    margin-right: 7rem;
+}
+.nav-head a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    display: inline-block;
+    padding-top: 0.5rem;
+    float: left;
+}
+.logo img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    /*-webkit-filter: grayscale(100%);*/ /* Safari 6.0 - 9.0 */
+    /*filter: grayscale(100%);*/
+}
